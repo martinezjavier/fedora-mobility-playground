@@ -1,0 +1,6 @@
+[User]
+Session=phosh
+XSession=phosh
+PasswordHint=
+Icon=/var/lib/AccountsService/icons/guest
+SystemAccount=false
