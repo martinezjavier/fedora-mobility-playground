@@ -64,11 +64,11 @@
               "mpp-depsolve": {
                 "architecture": "$arch",
                 "module-platform-id": "rawhide",
-                "baseurl": "https://fedora.mirrorservice.org/fedora/linux/development/rawhide/Everything/$arch/os/",
+                "baseurl": "https://dl.fedoraproject.org/pub/fedora/linux/development/rawhide/Everything/$arch/os/",
                 "repos": [
                   {
                     "id": "default",
-                    "baseurl": "https://fedora.mirrorservice.org/fedora/linux/development/rawhide/Everything/$arch/os/"
+                    "baseurl": "https://dl.fedoraproject.org/pub/fedora/linux/development/rawhide/Everything/$arch/os/"
                   },
                   {
                     "id": "copr-pine64",
