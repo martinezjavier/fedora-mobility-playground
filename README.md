@@ -62,12 +62,11 @@ Replace `/dev/sda` by the correct block device in your system.
 If the PinePhone Pro does not have a firmware in its SPI flash or eMMC that
 is able to EFI images, a bootloader must be installed in the block device.
 
-This can be done by downloading a uboot-images-armv8 package from my COPR
-and writing into the block device of the eMMC or SD card:
+This can be done by downloading the uboot-images-armv8 package and writing
+the uboot binaries to the block device of the eMMC or SD card:
 
 ```sh
-sudo dnf copr enable javierm/pine64 -y
-sudo dnf --disablerepo="*" --enablerepo="copr:copr.fedorainfracloud.org:javierm:pine64" update uboot-images-armv8 -y
+sudo dnf install uboot-images-armv8 -y
 sudo dd if=/usr/share/uboot/pinephone-pro-rk3399/idbloader.img of=/dev/sda seek=64
 sudo dd if=/usr/share/uboot/pinephone-pro-rk3399/u-boot.itb of=/dev/sda seek=16384
 ```
