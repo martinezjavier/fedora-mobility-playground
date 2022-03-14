@@ -78,29 +78,18 @@
                 ],
                 "packages": [
                   "@core",
-                  "@standard",
                   "@hardware-support",
-                  "@base-x",
-                  "@workstation-product-environment",
                   "@fonts",
-                  "@input-methods",
-                  "@multimedia",
-                  "@printing",
-                  "@guest-desktop-agents",
+                  "@phosh-desktop",
                   "kernel",
                   "shim",
                   "grub2-efi",
                   "dracut-config-generic",
                   "chrony",
-                  "iwl*",
-                  "ipw*",
-                  "usb_modeswitch",
                   "glibc-all-langpacks",
-                  "aajohan-comfortaa-fonts",
-                  "phosh"
+                  "gdm"
                 ],
                 "excludes": [
-                  "dracut-config-rescue",
                   "gnome-initial-setup",
                   "gnome-tour"
                 ]
