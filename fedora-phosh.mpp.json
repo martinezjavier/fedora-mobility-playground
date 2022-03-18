@@ -168,7 +168,7 @@
             "filesystems": [
               {
                 "uuid": {"mpp-format-string": "{rootfs_uuid}"},
-                "vfs_type": "xfs",
+                "vfs_type": "btrfs",
                 "path": "/",
                 "freq": 1,
                 "passno": 1
@@ -274,7 +274,7 @@
           }
         },
         {
-          "type": "org.osbuild.mkfs.xfs",
+          "type": "org.osbuild.mkfs.btrfs",
           "devices": {
             "device": {
               "type": "org.osbuild.loopback",
@@ -338,7 +338,7 @@
           "mounts": [
             {
               "name": "root",
-              "type": "org.osbuild.xfs",
+              "type": "org.osbuild.btrfs",
               "source": "root",
               "target": "/"
             },
