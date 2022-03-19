@@ -87,7 +87,8 @@
                   "dracut-config-generic",
                   "chrony",
                   "glibc-all-langpacks",
-                  "gdm"
+                  "gdm",
+                  "epiphany"
                 ],
                 "excludes": [
                   "gnome-initial-setup",
