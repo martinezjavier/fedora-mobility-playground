@@ -69,11 +69,6 @@
                   {
                     "id": "default",
                     "baseurl": "https://dl.fedoraproject.org/pub/fedora/linux/development/rawhide/Everything/$arch/os/"
-                  },
-                  {
-                    "id": "copr-pine64",
-                    "priority": "1",
-                    "baseurl": "https://download.copr.fedorainfracloud.org/results/javierm/pine64/fedora-rawhide-aarch64/"
                   }
                 ],
                 "packages": [
