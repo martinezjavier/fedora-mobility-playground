@@ -165,6 +165,7 @@
               {
                 "uuid": {"mpp-format-string": "{rootfs_uuid}"},
                 "vfs_type": "btrfs",
+                "options": "compress=zstd:1",
                 "path": "/",
                 "freq": 1,
                 "passno": 1
